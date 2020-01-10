@@ -16,7 +16,7 @@ public class Exercise_03 {
         // write code to print out "Check out my first program!"
         System.out.println("Hello World!");
         System.out.println("Check out my first program!");
-
+        // testing git
     }
 
 }
