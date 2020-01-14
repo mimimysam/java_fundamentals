@@ -24,6 +24,11 @@ public class Exercise_05 {
         int days = scanner.nextInt();
 
         // write completed code here
+        byte min = 60;
+        int hour = min * 60;
+        long one_day = hour * 24;
+
+        System.out.println("There are " + one_day * days + " seconds in " + days + " days.");
 
     }
 }
