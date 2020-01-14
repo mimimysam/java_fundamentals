@@ -4,16 +4,32 @@
 
 Initializing git folder
     1. In CodingNomads folder, create new folder git_practice
+        Mimis-MacBook-Air:CodingNomads mimisam$ mkdir git_practice
+
     2. Inside git_practice:
         a. Initialize folder as a git folder (make sure you are in the correct folder when initializing) by running
             the "git init" command within the git_practice folder.
+            Mimis-MacBook-Air:git_practice mimisam$ git init
+
         b. Make new file
+            Mimis-MacBook-Air:git_practice mimisam$ vim new_file
+
         c. Add file
+            Mimis-MacBook-Air:git_practice mimisam$ git add new_file
+
         d. Commit file
+            Mimis-MacBook-Air:git_practice mimisam$ git commit -m "push new_file to GitHub"
+
         c. On Github, create new git_practice repository
+            https://github.com/mimimysam/git_practice.git
+
         d. Add this new GitHub repository as a new "remote" to your local Git repo. You can do this by using the command
             git remote add <ANY_NAME> <URL_OF_NEW_GITHUB_REPO.git>
+            Mimis-MacBook-Air:git_practice mimisam$ git remote add practice https://github.com/mimimysam/git_practice.git
+
         d. Push commit file to Github
+            Mimis-MacBook-Air:git_practice mimisam$ git push practice master
+
         e. Practice the following git flow until you feel comfortable:
             i.   Create or modify file
             ii.  Add file(s)
