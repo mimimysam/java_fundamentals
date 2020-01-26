@@ -12,6 +12,7 @@ package labs_examples.arrays.labs;
  *      ...
  *      ...
  *      ...
+ *      int x = twoDArray[1][2]
  *
  */
 
@@ -19,6 +20,16 @@ public class Exercise_03 {
 
     public static void main(String[] args) {
 
+        int count = 1;
+
         int[][] twoDArray = new int[5][5];
+        for (int i=0; i<twoDArray.length; i++) {
+            for (int j = 0; j < twoDArray[i].length; j++) {
+                twoDArray[i][j] = count * 3;
+                count++;
+                System.out.print(twoDArray[i][j] + "  ");
+            }
+            System.out.println();
+        }
     }
 }

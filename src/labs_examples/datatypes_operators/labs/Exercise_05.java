@@ -18,6 +18,16 @@ class LogicalOperators {
         }
 
         // write your code below
+        boolean c = true;
+        boolean d = true;
+        if (c && d){
+            System.out.println("c and d are true");
+        }
+
+        boolean e = false;
+        boolean f = true;
+
+
 
     }
 

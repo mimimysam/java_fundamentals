@@ -28,7 +28,7 @@ public class Exercise_05 {
         int large = scanner.nextInt();
         System.out.print("Enter a number smaller than the first number: ");
         int small = scanner.nextInt();
-        int sum = 0;
+        float sum = 0;
         for (int i = small; i <= large; i++) {
                 sum = sum + i;
         }
