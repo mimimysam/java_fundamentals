@@ -4,7 +4,7 @@ package labs_examples.generics.labs;
  * Generics Exercise 3:
  *
  *      1) Write a generic method that accepts two generic arguments. This generic method should only accept
- *      arguments which are sublasses of Number. The generic method must return the sum (as a double) of whatever two
+ *      arguments which are subclasses of Number. The generic method must return the sum (as a double) of whatever two
  *      numbers were passed in regardless of their type.
  *
  *      2) Write a generic method to count the number of elements in a collection of Strings that are palindromes
@@ -15,3 +15,4 @@ package labs_examples.generics.labs;
  *
  *      5)
  */
+
